@@ -33,7 +33,7 @@
     //内存是没有泄露的喔,因为是播放视频,所以播放过程中内存占用比较大,但是也是没有问题的,是被准许的,还有就是模拟器上显示内存占用不准确,真机会真实很多,内存占用小很多
     //求赞一个喔,
     //你都不知道我有多希望你赞我
-    //其他小工具https://github.com/luowenqi/JJMoiveNewFeature
+    //其他小工具https://github.com/luowenqi/JJMovieNewFeature
     
     
     /*
