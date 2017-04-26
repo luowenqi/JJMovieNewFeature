@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A45D14BC1EB0BAAB0097BAE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D14BB1EB0BAAB0097BAE4 /* main.m */; };
+		A45D14BF1EB0BAAB0097BAE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D14BE1EB0BAAB0097BAE4 /* AppDelegate.m */; };
+		A45D14C71EB0BAAB0097BAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45D14C61EB0BAAB0097BAE4 /* Assets.xcassets */; };
+		A45D14CA1EB0BAAB0097BAE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45D14C81EB0BAAB0097BAE4 /* LaunchScreen.storyboard */; };
+		A45D14DA1EB0BCE50097BAE4 /* JJMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D14D91EB0BCE50097BAE4 /* JJMainVC.m */; };
+		A46725E71EB0D7B00079854A /* 111.gif in Resources */ = {isa = PBXBuildFile; fileRef = A46725E21EB0D7B00079854A /* 111.gif */; };
+		A46725E81EB0D7B00079854A /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A46725E31EB0D7B00079854A /* qidong.mp4 */; };
+		A46725E91EB0D7B00079854A /* JJMoviewNewFeatureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A46725E61EB0D7B00079854A /* JJMoviewNewFeatureVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A45D14B71EB0BAAB0097BAE4 /* 动画新特性界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画新特性界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45D14BB1EB0BAAB0097BAE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A45D14BD1EB0BAAB0097BAE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A45D14BE1EB0BAAB0097BAE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A45D14C61EB0BAAB0097BAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45D14C91EB0BAAB0097BAE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A45D14CB1EB0BAAB0097BAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45D14D81EB0BCE50097BAE4 /* JJMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainVC.h; sourceTree = "<group>"; };
+		A45D14D91EB0BCE50097BAE4 /* JJMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainVC.m; sourceTree = "<group>"; };
+		A46725E21EB0D7B00079854A /* 111.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 111.gif; sourceTree = "<group>"; };
+		A46725E31EB0D7B00079854A /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		A46725E51EB0D7B00079854A /* JJMoviewNewFeatureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMoviewNewFeatureVC.h; sourceTree = "<group>"; };
+		A46725E61EB0D7B00079854A /* JJMoviewNewFeatureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMoviewNewFeatureVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45D14B41EB0BAAB0097BAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45D14AE1EB0BAAB0097BAE4 = {
+			isa = PBXGroup;
+			children = (
+				A45D14B91EB0BAAB0097BAE4 /* 动画新特性界面 */,
+				A45D14B81EB0BAAB0097BAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A45D14B81EB0BAAB0097BAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45D14B71EB0BAAB0097BAE4 /* 动画新特性界面.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45D14B91EB0BAAB0097BAE4 /* 动画新特性界面 */ = {
+			isa = PBXGroup;
+			children = (
+				A45D14D81EB0BCE50097BAE4 /* JJMainVC.h */,
+				A46725E11EB0D7B00079854A /* 视频,截图 */,
+				A46725E41EB0D7B00079854A /* JJMoveNewFeature */,
+				A45D14D91EB0BCE50097BAE4 /* JJMainVC.m */,
+				A45D14BD1EB0BAAB0097BAE4 /* AppDelegate.h */,
+				A45D14BE1EB0BAAB0097BAE4 /* AppDelegate.m */,
+				A45D14C61EB0BAAB0097BAE4 /* Assets.xcassets */,
+				A45D14C81EB0BAAB0097BAE4 /* LaunchScreen.storyboard */,
+				A45D14CB1EB0BAAB0097BAE4 /* Info.plist */,
+				A45D14BA1EB0BAAB0097BAE4 /* Supporting Files */,
+			);
+			path = "动画新特性界面";
+			sourceTree = "<group>";
+		};
+		A45D14BA1EB0BAAB0097BAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A45D14BB1EB0BAAB0097BAE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A46725E11EB0D7B00079854A /* 视频,截图 */ = {
+			isa = PBXGroup;
+			children = (
+				A46725E21EB0D7B00079854A /* 111.gif */,
+				A46725E31EB0D7B00079854A /* qidong.mp4 */,
+			);
+			path = "视频,截图";
+			sourceTree = "<group>";
+		};
+		A46725E41EB0D7B00079854A /* JJMoveNewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				A46725E51EB0D7B00079854A /* JJMoviewNewFeatureVC.h */,
+				A46725E61EB0D7B00079854A /* JJMoviewNewFeatureVC.m */,
+			);
+			path = JJMoveNewFeature;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A45D14B61EB0BAAB0097BAE4 /* 动画新特性界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45D14CE1EB0BAAB0097BAE4 /* Build configuration list for PBXNativeTarget "动画新特性界面" */;
+			buildPhases = (
+				A45D14B31EB0BAAB0097BAE4 /* Sources */,
+				A45D14B41EB0BAAB0097BAE4 /* Frameworks */,
+				A45D14B51EB0BAAB0097BAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "动画新特性界面";
+			productName = "动画新特性界面";
+			productReference = A45D14B71EB0BAAB0097BAE4 /* 动画新特性界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45D14AF1EB0BAAB0097BAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "罗文琦";
+				TargetAttributes = {
+					A45D14B61EB0BAAB0097BAE4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 836V4V67ZD;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A45D14B21EB0BAAB0097BAE4 /* Build configuration list for PBXProject "动画新特性界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A45D14AE1EB0BAAB0097BAE4;
+			productRefGroup = A45D14B81EB0BAAB0097BAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45D14B61EB0BAAB0097BAE4 /* 动画新特性界面 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45D14B51EB0BAAB0097BAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46725E71EB0D7B00079854A /* 111.gif in Resources */,
+				A45D14CA1EB0BAAB0097BAE4 /* LaunchScreen.storyboard in Resources */,
+				A45D14C71EB0BAAB0097BAE4 /* Assets.xcassets in Resources */,
+				A46725E81EB0D7B00079854A /* qidong.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45D14B31EB0BAAB0097BAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45D14BF1EB0BAAB0097BAE4 /* AppDelegate.m in Sources */,
+				A45D14BC1EB0BAAB0097BAE4 /* main.m in Sources */,
+				A45D14DA1EB0BCE50097BAE4 /* JJMainVC.m in Sources */,
+				A46725E91EB0D7B00079854A /* JJMoviewNewFeatureVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A45D14C81EB0BAAB0097BAE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45D14C91EB0BAAB0097BAE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A45D14CC1EB0BAAB0097BAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A45D14CD1EB0BAAB0097BAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A45D14CF1EB0BAAB0097BAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 836V4V67ZD;
+				INFOPLIST_FILE = "动画新特性界面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios9qi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c49841ee-0244-4e34-97ac-846a86f22efe";
+				PROVISIONING_PROFILE_SPECIFIER = jiuqi.dev;
+			};
+			name = Debug;
+		};
+		A45D14D01EB0BAAB0097BAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "动画新特性界面/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios9qi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45D14B21EB0BAAB0097BAE4 /* Build configuration list for PBXProject "动画新特性界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45D14CC1EB0BAAB0097BAE4 /* Debug */,
+				A45D14CD1EB0BAAB0097BAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45D14CE1EB0BAAB0097BAE4 /* Build configuration list for PBXNativeTarget "动画新特性界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45D14CF1EB0BAAB0097BAE4 /* Debug */,
+				A45D14D01EB0BAAB0097BAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A45D14AF1EB0BAAB0097BAE4 /* Project object */;
+}
