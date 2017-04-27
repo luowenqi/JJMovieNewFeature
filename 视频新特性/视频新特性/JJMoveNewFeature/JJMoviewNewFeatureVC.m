@@ -54,7 +54,10 @@
     }];
 }
 
-
+#pragma mark - 移除通知
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:MPMoviePlayerPlaybackDidFinishNotification];
+}
 
 
 @end
