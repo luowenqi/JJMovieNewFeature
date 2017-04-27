@@ -19,7 +19,8 @@ JJMoviewNewFeatureVC* VC = [[JJMoviewNewFeatureVC alloc]initWithContentURL:url];
 * 赞一个吧
 
 
-截图 1M,可能出来有点慢
+## 截图 
+> gif图,1M,可能出来有点慢
 
 ![image](https://github.com/luowenqi/JJMoiveNewFeature/blob/master/视频新特性/视频新特性/视频%2C截图/111.gif)
 
